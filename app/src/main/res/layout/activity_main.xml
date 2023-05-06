@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn Word With Letters"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#16288C"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/letter_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vb"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/letter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6D4C41"
+        android:gravity="center_horizontal"
+        android:hint="letter"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/letter_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6D4C41"
+        android:gravity="center_horizontal"
+        android:hint="word on the letter"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Letter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#162FBA"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
+
+</ScrollView>
